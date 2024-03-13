@@ -105,5 +105,5 @@ set_volume() {
     amixer -D pulse sset Master "$1"%
 }
 
-alias setvol='volup'
+alias setvol='set_volume'
 
